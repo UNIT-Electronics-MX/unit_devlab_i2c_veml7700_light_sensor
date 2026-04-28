@@ -1,6 +1,6 @@
 /** @file veml7700_interrupt.ino 
 2 *
-3 * @brief
+3 * @brief Code for test the interruption register via I2C connector
 4 *
 5 * @author Jonathan Mejorado Lopez
 6 *

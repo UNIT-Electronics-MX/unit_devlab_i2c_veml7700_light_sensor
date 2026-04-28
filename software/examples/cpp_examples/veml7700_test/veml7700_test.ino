@@ -1,6 +1,6 @@
 /** @file veml7700_test.ino 
 2 *
-3 * @brief
+3 * @brief Example code for test all the parameters included in the module sensor, with variations of gain, integration time and lux mode captation.
 4 *
 5 * @author Jonathan Mejorado Lopez
 6 *
@@ -101,7 +101,7 @@ void scanI2CDevices(){
 /**
 * @brief This function contain 3 nested fors for sweep all available settings of the sensor: gains | integration time | lux
 */
-void sweepMeditions(){
+void sweepMeasurements(){
   
   for(int i = 0; i < 4; i++){
      veml.setGain(gains[i].reg);
@@ -176,7 +176,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   if(veml.enabled()){
     //Sweepmeasurements
-    sweepMeditions();
+    sweepMeasurements();
   }else{
     Serial.println("No esta habilitado el sensor");
   }
