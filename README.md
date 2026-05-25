@@ -7,7 +7,7 @@ The DevLab I2C VEML7700 Light Sensor is a compact ambient light sensing module d
 The module supports ambient light measurements, white light sensing, and calibrated lux calculations with configurable gain and integration timing parameters. Its compact form factor and dual JST-SH connectors allow easy daisy-chain integration with other DevLab compatible modules.
 
 <div align="center">
-  <img src="hardware/resources/unit_top_v_1_0_0_i2c_veml7700_light_sensor.png" width="450px" alt="Development Board">
+  <img src="hardware/resources/unit_top_v_1_0_0_i2c_veml7700_light_sensor.png" width="650px" alt="Development Board">
   <p><em>Development Board</em></p>
 </div>
 
