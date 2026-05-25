@@ -1,23 +1,13 @@
 
-# DevLab: [Protocol/Interface] [Chip/Model] [Brief Description][Module/Sensor/Shield/Adapter]
-<!-- Exception:
+# Devlab: I2C VEML7700 Light Sensor
 
-The PULSAR development board line does not use the DevLab: prefix.
 
-Format: PULSAR [MCU/Model]
+The DevLab I2C VEML7700 Light Sensor is a compact ambient light sensing module designed for rapid integration into embedded systems, educational platforms, and IoT applications. The board integrates the VEML7700 high-sensitivity ambient light sensor and communicates through the I²C protocol using the standardized DevLab connector ecosystem compatible with Qwiic and STEMMA QT.
 
-Examples: PULSAR C6, PULSAR H2, PULSAR RP2350
-
-The JUN R3 board also does not use DevLab:
-
-Example: JUN R3 -->
-
-## Introduction
-
-This is a modular development board based on a popular microcontroller, designed for rapid prototyping and educational use. It features flexible power options, modern connectivity, and user-friendly interfaces. An integrated LED matrix allows for simple visual feedback and display.
+The module supports ambient light measurements, white light sensing, and calibrated lux calculations with configurable gain and integration timing parameters. Its compact form factor and dual JST-SH connectors allow easy daisy-chain integration with other DevLab compatible modules.
 
 <div align="center">
-  <img src="hardware/resources/unit_top_v_1_0_0_icp10111_barometric_pressure_sensor.png" width="450px" alt="Development Board">
+  <img src="hardware/resources/unit_top_v_1_0_0_i2c_veml7700_light_sensor.png" width="450px" alt="Development Board">
   <p><em>Development Board</em></p>
 </div>
 
@@ -36,28 +26,24 @@ This is a modular development board based on a popular microcontroller, designed
 
 ## Overview
 
-| Feature           | Description                                         |
-|-------------------|-----------------------------------------------------|
-| Microcontroller   | 8-bit MCU                                           |
-| Memory            | Flash, SRAM, EEPROM                                 |
-| Clock Speed       | 16 MHz                                              |
-| Power Supply      | USB-C (5V)                                          |
-| Interfaces        | UART, I2C, SPI, PWM, ADC, GPIO                      |
-| LED Matrix        | 5x5 RGB LED Matrix                                  |
-| Connectivity      | USB-C for programming and power                     |
-| Form Factor       | UNO-compatible                                      |
-| Development IDEs  | Arduino IDE, PlatformIO                             |
-| Onboard Features  | Integrated LED matrix, programmable LED, reset button|
-| Expansion Port    | I2C connector for sensors and modules               |
+| Feature                     | Description |
+|-----------------------------|-------------|
+| Sensor                      | VEML7700 Ambient Light Sensor |
+| Communication Interface     | I²C |
+| Default I²C Address         | `0x10` |
+| Connector Type              | JST-SH 1.0 mm |
+| Ecosystem Compatibility     | Qwiic / STEMMA QT / DevLab |
+| Supported Measurements      | Ambient Light, White Light, Lux |
+| Configurable Gain           | Supported |
+| Configurable Integration Time | Supported |
+| Operating Voltage           | 3.3V |
+| Form Factor                 | DevLab Compact Module |
+
 
 </div>
 
 ## Applications
 
-- **Prototyping:** Quickly develop and test ideas.
-- **Education:** Suitable for learning microcontroller basics.
-- **Wearables:** Compact and versatile for wearable devices.
-- **Displays:** Use the LED matrix for simple visual output.
 
 ## Resources
 
