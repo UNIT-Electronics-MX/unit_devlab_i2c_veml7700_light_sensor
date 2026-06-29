@@ -12,14 +12,14 @@
 * INCLUDES
 *****************************************************************************/
 #include <Wire.h>
-#include <Adafruit_VEML7700.h>
+#include <DevLab_VEML7700.h>
 
 /******************************************************************************
 * MACROS AND DEFINES
 *****************************************************************************/
 
 //Construct veml object
-Adafruit_VEML7700 veml = Adafruit_VEML7700();
+DevLab_VEML7700 veml = DevLab_VEML7700();
 
 #define SDA_PIN 6
 #define SCL_PIN 7

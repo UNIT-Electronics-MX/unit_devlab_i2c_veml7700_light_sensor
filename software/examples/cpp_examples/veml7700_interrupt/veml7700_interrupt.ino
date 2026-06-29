@@ -7,17 +7,16 @@
 7 * @bug No known bugs.
 8 */
 
-#include "Adafruit_VEML7700.h"
 
 
 #include <Wire.h>
-#include <Adafruit_VEML7700.h>
+#include <DevLab_VEML7700.h>
 
 #define SDA_PIN 6
 #define SCL_PIN 7
 
 
-Adafruit_VEML7700 veml = Adafruit_VEML7700();
+DevLab_VEML7700 veml = DevLab_VEML7700();
 
 void setup() {
    //Init serial terminal at 115200 bauds

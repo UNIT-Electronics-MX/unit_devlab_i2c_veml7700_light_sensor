@@ -7,11 +7,10 @@
 7 * @bug No known bugs.
 8 */
 
-#include "Adafruit_VEML7700.h"
 
 
 #include <Wire.h>
-#include <Adafruit_VEML7700.h>
+#include <DevLab_VEML7700.h>
 
 
 //Pin definitions for I2C Settings
@@ -19,7 +18,7 @@
 #define SCL_PIN 7
 
 //Object construct for VEML7700
-Adafruit_VEML7700 veml = Adafruit_VEML7700();
+DevLab_VEML7700 veml = DevLab_VEML7700();
 
 
 /******************************************************************************
