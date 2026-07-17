@@ -47,8 +47,8 @@ The module supports ambient light measurements, white light sensing, and calibra
 
 ## Resources
 
-- [Schematic Diagram](#)
-- [Pinout Diagram](#)
+- [Schematic Diagram](/hardware/unit_sch_v_1_0_0_i2c_veml7700_light_sensor.pdf)
+- [Pinout Diagram](/hardware/unit_pinout_v_1_0_0_ue0127_i2c_veml7700_sensor_light_en.pdf)
 - [Getting Started Guide](#)
 
 ## 📝 License

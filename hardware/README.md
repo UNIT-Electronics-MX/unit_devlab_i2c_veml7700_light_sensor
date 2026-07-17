@@ -22,13 +22,13 @@
 # Hardware
 
 <div align="center">
-<a href="{{schematic_url}}"><img src="resources/Schematics_icon.jpg?raw=false" width="200px"><br/>Schematic</a>
+<a href="unit_sch_v_1_0_0_i2c_veml7700_light_sensor.pdf"><img src="resources/Schematics_icon.jpg?raw=false" width="200px"><br/>Schematic</a>
 </div>
 
 ## Pinout
 
 <div align="center">
-    <a href="#"><img src="resources/unit_pinout_v_0_0_1_ue0094_icp10111_barometric_pressure_sensor_en.jpg" width="500px"><br/>Pinout</a>
+    <a href="unit_pinout_v_1_0_0_ue0127_i2c_veml7700_sensor_light_en.pdf"><img src="resources/pinout/unit_pinout_v_1_0_0_ue0127_i2c_veml7700_sensor_light_en.jpg" width="500px"><br/>Pinout</a>
     <br/>
     <br/>
     <br/>
@@ -48,8 +48,6 @@
 </div>
 
 ## Topology
-
-<div align="center">
 
 <div align="center">
 <a href="./resources/unit_topology_V_0_0_1_ue0099_Sensor_Touch.png"><img src="./resources/unit_topology_V_0_0_1_ue0099_Sensor_Touch.png" width="500px"><br/> Topology</a>
@@ -87,4 +85,4 @@
 
 # References
 
-- [{{datasheet_name}}]({{datasheet_url}})
+- [Datasheet VEML7700](./resources/pdf/veml7700.pdf)
