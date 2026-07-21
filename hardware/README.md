@@ -1,24 +1,3 @@
-> **Note of Development:**  
-> This hardware module is under active development. File and directory structures, naming conventions, and documentation formats may change as the design evolves.  
-> 
-> - **File Naming:**  
->   - Use capital letters and underscores only.  
->   - Start filenames with `unit_<filename>_v_<version>_<description>.<ext>`.  
->   - Example: `unit_icp10111_barometric_pressure_sensor_v_1_0_0.png`
->   - Schematic: `schematic_v_<version>_<description>.<ext>` (e.g., `schematic_v_1_0_0_icp10111_barometric_pressure_sensor.png`)
->   - Topology: `unit_topology_v_<version>_<description>.<ext>`
->   - Dimensions: `unit_dimension_v_<version>_<description>.<ext>`
-> 
-> - **README Structure:**  
->   - Hardware overview  
->   - Pinout and connector layout  
->   - Dimensions and topology  
->   - Functional description  
->   - Applications  
->   - References  
-> 
-> Please refer to the latest commit history for updates and changes.
-
 # Hardware
 
 <div align="center">
@@ -44,7 +23,7 @@
 ## Dimensions
 
 <div align="center">
-<a href="./resources/unit_dimension_v_1_0_0_icp10111_barometric_pressure_sensor.png"><img src="./resources/unit_dimension_v_1_0_0_icp10111_barometric_pressure_sensor.png" width="700px"><br/> Dimensions</a>
+<a href="./resources/unit_dimensions_v_1_0_0_ue0127_veml7700_light_sensor.png"><img src="./resources/unit_dimensions_v_1_0_0_ue0127_veml7700_light_sensor.png" width="700px"><br/> Dimensions</a>
 </div>
 
 ## Topology
