@@ -28,7 +28,7 @@
 ## Pinout
 
 <div align="center">
-    <a href="unit_pinout_v_1_0_0_ue0127_i2c_veml7700_sensor_light_en.pdf"><img src="resources/pinout/unit_pinout_v_1_0_0_ue0127_i2c_veml7700_sensor_light_en.jpg" width="500px"><br/>Pinout</a>
+    <a href="unit_pinout_v_1_0_0_ue0127_i2c_veml7700_sensor_light_en.pdf"><img src="resources/pinout/unit_pinout_v_1_0_0_ue0127_i2c_veml7700_sensor_light_en.jpg" width="700px"><br/>Pinout</a>
     <br/>
     <br/>
     <br/>
@@ -44,13 +44,13 @@
 ## Dimensions
 
 <div align="center">
-<a href="./resources/unit_dimension_v_1_0_0_icp10111_barometric_pressure_sensor.png"><img src="./resources/unit_dimension_v_1_0_0_icp10111_barometric_pressure_sensor.png" width="500px"><br/> Dimensions</a>
+<a href="./resources/unit_dimension_v_1_0_0_icp10111_barometric_pressure_sensor.png"><img src="./resources/unit_dimension_v_1_0_0_icp10111_barometric_pressure_sensor.png" width="700px"><br/> Dimensions</a>
 </div>
 
 ## Topology
 
 <div align="center">
-<a href="./resources/unit_topology_V_0_0_1_ue0099_Sensor_Touch.png"><img src="./resources/unit_topology_V_0_0_1_ue0099_Sensor_Touch.png" width="500px"><br/> Topology</a>
+<a href="./resources/unit_topology_v_1_0_0_ue0127_veml7700_light_sensor.png"><img src="./resources/unit_topology_v_1_0_0_ue0127_veml7700_light_sensor.png" width="700px"><br/> Topology</a>
 <br/>
 <br/>
 <br/>
